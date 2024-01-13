@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Underwater Animal Classification</title>
+  </head>
+  <body>
+    <header>
+      <h1>Underwater Animal Classification</h1>
+    </header>
+    <main>
+      <section id="imageUpload">
+        <h2>Upload an Underwater Animal Image</h2>
+        
+        
+        <div class="upload-container">
+           <input type="file" id="imageInput" accept="image/*" /> 
+          <button onclick="classifyImage()">Classify</button>
+        </div>
+      
+        <div id="imagePreview" class="image-preview"></div>
+        <div id="loadingSpinner" class="loading-spinner"></div>
+      </section>
+      <section id="result">
+        <h2>Classification Result</h2>
+        <div id="resultText"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Underwater Animal Identification Project @Team DevRev07</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
