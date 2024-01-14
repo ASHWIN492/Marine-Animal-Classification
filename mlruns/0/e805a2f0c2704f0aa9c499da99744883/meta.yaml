@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ashwi/OneDrive/Desktop/devrev07_1/under-water-animal-classification/mlruns/0/e805a2f0c2704f0aa9c499da99744883/artifacts
+end_time: 1705197209944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e805a2f0c2704f0aa9c499da99744883
+run_name: suave-perch-277
+run_uuid: e805a2f0c2704f0aa9c499da99744883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705197173750
+status: 3
+tags: []
+user_id: ashwi

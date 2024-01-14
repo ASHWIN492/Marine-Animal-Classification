@@ -12,9 +12,8 @@ model = load_model(model_path)
 
 class_labels = {
     0: 'Clams', 1: 'Corals', 2: 'Crabs', 3: 'Dolphin', 4: 'Eel', 5: 'Fish', 6: 'Jelly Fish',
-    7: 'Jelly Fish', 8: 'Lobster', 9: 'Nudibranchs', 10: 'Octopus', 11: 'Otter', 12: 'Penguin',
-    13: 'Puffers', 14: 'Sea Rays', 15: 'Sea Urchins', 16: 'Seahorse', 17: 'Seal', 18: 'Sharks',
-    19: 'Shrimp', 20: 'Squid', 21: 'Starfish', 22: 'Turtle_Tortoise', 23: 'Whale'
+    7: 'Lobster', 8: 'Nudibranchs', 9: 'Octopus', 10: 'Otter', 11: 'Penguin',12: 'Puffers', 13: 'Sea Rays', 14: 'Sea Urchins', 15: 'Seahorse', 16: 'Seal', 17: 'Sharks',
+    18: 'Shrimp', 19: 'Squid', 20: 'Starfish', 21: 'Turtle_Tortoise', 22: 'Whale'
 }
 
 def classify_image(img):
