@@ -31,7 +31,7 @@ def classify_image(img):
     return predicted_class, confidence
 
 def main():
-    st.title("Image Classification App")
+    st.title("Marine Animal Image Classification")
 
     uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
