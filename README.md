@@ -65,6 +65,4 @@ To use MLflow for experiment tracking and model management, follow these steps:
 3. Set the MLflow tracking URI to the server's address, e.g., `mlflow.set_tracking_uri("http://localhost:5000")`.
 4. Use MLflow APIs to log experiments, parameters, metrics, and models in your code.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
