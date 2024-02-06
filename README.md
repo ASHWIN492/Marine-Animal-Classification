@@ -6,6 +6,16 @@ This project aims to classify underwater animal images using the ResNet-50 model
 
 The project follows a structured approach for managing artifacts and configurations:
 
+## Overview
+
+The project consists of the following components:
+
+- Data ingestion: Unzips the dataset containing images of underwater animals.
+- Base model preparation: Prepares the base ResNet-50 model for fine-tuning.
+- Training: Fine-tunes the ResNet-50 model on the dataset.
+- Streamlit app: Deploys the trained model for inference via a user-friendly web interface.
+- MLflow integration: Tracks experiments, parameters, metrics, and models for better management and reproducibility.
+
 ### `config.yaml`:
 
 - **Artifacts Root Directory**: Centralized location for storing project artifacts.
