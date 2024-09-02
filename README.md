@@ -1,4 +1,4 @@
-# Underwater Animal Classification Project
+# Marine Animal Classification
 
 This project aims to classify underwater animal images using the ResNet-50 model. The classification model is deployed using Streamlit, and MLflow is used for experiment tracking and model management.
 
